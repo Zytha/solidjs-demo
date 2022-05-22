@@ -5,7 +5,7 @@ function Home() {
         <>
             <Navbar />
             <div class="flex justify-center items-center h-[85vh]">
-                <h1 class="text-8xl font-bold text-[#242424] font-[Ubuntu]">
+                <h1 class="text-5xl font-bold text-[#242424] font-[Ubuntu]">
                     Home
                 </h1>
             </div>

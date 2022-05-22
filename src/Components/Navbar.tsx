@@ -59,12 +59,12 @@ function Navbar() {
                         </Switch>
                     </div>
                     <div class="flex flex-row gap-[1.25rem]">
-                        <button
+                        <div
                             class="text-white text-5xl"
                             onClick={() => setOpen(!isOpen())}
                         >
                             <i class="fa-solid fa-bars"></i>
-                        </button>
+                        </div>
                     </div>
                 </div>
                 <Show when={isOpen() == true}>

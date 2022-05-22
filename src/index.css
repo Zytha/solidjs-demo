@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    * {
+        @apply font-[Ubuntu]
+    }
+
+    body {
+        background-color: #414141
+    }
+
+    .Link {
+        @apply flex justify-center items-center px-5 py-3 bg-gray-500 hover:bg-gray-600 active:ring-4 focus:ring-4 text-white text-2xl font-semibold rounded-md drop-shadow-xl duration-150
+    }
+
+    .active {
+        @apply bg-indigo-500 hover:bg-indigo-600
+    }
+}

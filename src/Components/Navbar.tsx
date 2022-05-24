@@ -9,17 +9,10 @@ function Navbar() {
         <>
             {/* Normal Navbar */}
             <div class="hidden lg:flex justify-between items-center bg-[#242424] p-[1.25rem]">
-                <div class="flex justify-center items-center text-4xl text-white font-semibold">
-                    <Show when={location.pathname === "/"}>
-                        <p>
-                            <i class="fa-solid fa-house"></i> Home
-                        </p>
-                    </Show>
-                    <Show when={location.pathname === "/about"}>
-                        <p>
-                            <i class="fa-solid fa-align-left"></i> About
-                        </p>
-                    </Show>
+                <div class="flex justify-center items-center text-4xl text-white font-bold">
+                    <p>
+                        <i class="fa-solid fa-code"></i> Solidjs-Demo
+                    </p>
                 </div>
                 <div class="flex flex-row gap-[1.25rem]">
                     <Link

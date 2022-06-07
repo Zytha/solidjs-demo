@@ -9,7 +9,7 @@
     }
 
     body {
-        background-color: #414141
+        @apply bg-[#414141]
     }
 
     .Link {

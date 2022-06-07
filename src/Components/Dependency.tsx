@@ -12,7 +12,9 @@ function Dependency(props) {
                     height={125}
                     width={125}
                 />
-                <h1 class="text-4xl font-bold text-[#aeaeae]">{props.text}</h1>
+                <h1 class="text-2xl xl:text-4xl font-bold text-[#aeaeae]">
+                    {props.text}
+                </h1>
             </a>
         </>
     );

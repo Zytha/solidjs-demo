@@ -12,11 +12,11 @@ function About() {
     return (
         <>
             <Navbar />
-            <div class="flex flex-col justify-center items-center h-[85vh]">
-                <h1 class="text-6xl font-bold text-[#aeaeae] py-8">
+            <div class="pt-8">
+                <h1 class="text-4xl xl:text-6xl font-bold text-[#aeaeae] py-8">
                     Dependencies Used
                 </h1>
-                <div class="flex flex-wrap justify-evenly items-center gap-4">
+                <div class="flex flex-wrap justify-center items-center gap-4">
                     <Dependency
                         text="SolidJS"
                         image={SolidJS}

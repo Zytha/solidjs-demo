@@ -9,9 +9,9 @@ const FourOFour = lazy(() => import("./pages/FourOFour"));
 function App() {
     const location = useLocation();
     const navigate = useNavigate();
-    if (location.pathname !== "/" && "/about") {
+    if (location.pathname !== "/" && location.pathname !== "/about") {
         navigate("/404", { replace: true });
-    } else if (location.pathname !== "/" && "/about") {
+    } else if (location.pathname !== "/" && location.pathname !== "/about") {
         return true;
     }
 

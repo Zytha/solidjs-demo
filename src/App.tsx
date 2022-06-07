@@ -1,9 +1,10 @@
 import { Routes, Route, useLocation, useNavigate } from "solid-app-router";
+import { lazy } from "solid-js";
 
-// Pages
-import Home from "./pages/Home";
-import About from "./pages/About";
-import FourOFour from "./pages/FourOFour";
+// Pages with Lazy Loading
+const Home = lazy(() => import("./pages/Home"));
+const About = lazy(() => import("./pages/About"));
+const FourOFour = lazy(() => import("./pages/FourOFour"));
 
 function App() {
     const location = useLocation();
@@ -11,7 +12,7 @@ function App() {
     if (location.pathname !== "/" && "/about") {
         navigate("/404", { replace: true });
     } else if (location.pathname !== "/" && "/about") {
-        console.log("nice");
+        return true;
     }
 
     return (

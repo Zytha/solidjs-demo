@@ -13,7 +13,7 @@ function About() {
         <>
             <Navbar />
             <div class="pt-8">
-                <h1 class="text-4xl xl:text-6xl font-bold text-[#aeaeae] py-8">
+                <h1 class="text-4xl text-center xl:text-6xl font-bold text-[#aeaeae] py-8">
                     Dependencies Used
                 </h1>
                 <div class="flex flex-wrap justify-center items-center gap-4">
